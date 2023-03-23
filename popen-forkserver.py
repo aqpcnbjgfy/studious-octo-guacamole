@@ -20,6 +20,7 @@ __all__ = ['Popen']
 #
 
 class _DupFd(object):
+    
     def __init__(self, ind):
         self.ind = ind
     def detach(self):
